@@ -1,0 +1,2 @@
+body{min-width:300px;margin:0;font-family:Verdana,Arial,Tahoma,serif}header{text-align:center}main{grid-gap:20px;flex-wrap:wrap;justify-content:space-around;padding:0 24px 40px;display:flex}#songs-list th,#songs-list td{padding:4px}#songs-list .index-cell{text-align:center;padding-inline:10px}#songs-list thead th{text-align:left;padding-block:12px}
+/*# sourceMappingURL=index.361011c3.css.map */
