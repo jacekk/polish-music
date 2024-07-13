@@ -7,7 +7,7 @@
 
 ### Setup
 
--   `$ git@github.com:jacekk/polish-music.git`
+-   `$ git clone git@github.com:jacekk/polish-music.git`
 -   `$ cd polish-music`
 -   `$ yarn install`
 -   `$ yarn start`

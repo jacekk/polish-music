@@ -4,7 +4,10 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Polish Music</title>
-	<link rel="stylesheet" href="style.scss" />
+	<link rel="stylesheet" href="style.sass" />
+	<link type="image/png" sizes="32x32" rel="icon" href="favicon-32.png">
+	<link type="image/png" sizes="96x96" rel="icon" href="favicon.png">
+	<script type="module" src="app.ts"></script>
 </head>
 
 <body>
@@ -12,7 +15,18 @@
 		<h1>Polish Music Overview</h1>
 	</header>
 	<main>
-		WIP
+		<table id="songs-list">
+			<thead>
+				<tr>
+					<th class="index-cell">#</th>
+					<th class="artist-cell">Artist</th>
+					<th class="title-cell">Title</th>
+					<th class="link-cell">YT link</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
 	</main>
 </body>
 
