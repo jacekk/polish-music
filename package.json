@@ -1,0 +1,29 @@
+{
+  "name": "polish-music",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "author": "jacekk",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "yarn prebuild && parcel build --public-url ./",
+    "clean": "rm -rf ./dist ./.parcel-cache",
+    "deploy": "yarn build && gh-pages -d dist",
+    "dev": "yarn prebuild && parcel",
+    "prebuild": "rm -rf ./dist",
+    "start": "yarn dev"
+  },
+  "engines": {
+    "node": "^20",
+    "yarn": "^1"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "gh-deploy": "^0.2.3",
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.12.0"
+  }
+}
